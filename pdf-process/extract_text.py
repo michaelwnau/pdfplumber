@@ -2,7 +2,7 @@ import csv
 import pdfplumber
 
 # Open the PDF file
-with pdfplumber.open("my_pdf.pdf") as pdf:
+with pdfplumber.open("zcg-pdf\2305-0639-zcg-capability-statement-b-w-v-2.pdf") as pdf:
     # Open the CSV file
     with open("my_csv.csv", "w", newline="") as csv_file:
         writer = csv.writer(csv_file)
